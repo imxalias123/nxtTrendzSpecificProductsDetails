@@ -1,1 +1,108 @@
 /* Write your CSS here */
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-text-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'roboto';
+}
+.profile {
+  width: 30%;
+  height: 80%;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.title {
+  color: #475569;
+  font-size: 50px;
+}
+.price {
+  color: #171f46;
+  font-size: 20px;
+}
+.text {
+  width: 30%;
+}
+.star {
+  background-color: #3b82f6;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  background-color: #3b82f6;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.wrap-rating-review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.review {
+  margin-top: 30px;
+}
+.description {
+  color: #616e7c;
+  font-size: 20px;
+}
+.left {
+  color: #12022f;
+  font-size: 19px;
+}
+.right {
+  color: #616e7c;
+  font-size: 19px;
+}
+.wrap-left-right {
+  display: flex;
+}
+.wrap-btn {
+  display: flex;
+  align-items: center;
+}
+.button {
+  background: transparent;
+  border: none;
+  color: #616e7c;
+  margin: 20px;
+}
+.add {
+  background-color: #3b82f6;
+  border: 0px;
+  color: #ffffff;
+  padding: 10px;
+}
+.heading-similar {
+  color: #475569;
+  padding: 30px;
+}
+.unordered {
+  display: flex;
+  flex-direction: row;
+}
+.error-img {
+  width: 40%;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.continue {
+  background-color: #3b82f6;
+  border: 0px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+}

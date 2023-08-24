@@ -11,11 +11,12 @@ const SimilarProductItem = props => {
         alt={`similar product ${title}`}
         className="similar-image"
       />
-      <p>{title}</p>
+
+      <p className="similar-title">{title}</p>
       <p>by {brand}</p>
-      <div>
-        <p>RS {price}/-</p>
-        <div>
+      <div className="similar-rating-price">
+        <p className="similar-price">RS {price}/-</p>
+        <div className="similar-rating">
           <p>{rating}</p>
           <img
             src="https://assets.ccbp.in/frontend/react-js/star-img.png"
